@@ -3,24 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>barbershop-item</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="main-header">
       <div class="container">
         <div class="logo">
-          <a href="#"></a>
+          <a href="../index.html"></a>
         </div>
-      </div >
-      <nav class=main-navigator>
-        <ul>
-          <li> <a href="#">ИНФОРМАЦИЯ</a></li>
-          <li> <a href="#">НОВОСТИ</a></li>
-          <li> <a href="#">ПРАЙС-ЛИСТ</a></li>
-          <li> <a href="#">МАГАЗИН</a></li>
-          <li> <a href="#">КОНТАКТЫ</a></li>
-        </ul>
-      </nav>
+        <nav class=main-navigator>
+          <ul>
+            <li> <a href="#">ИНФОРМАЦИЯ</a></li>
+            <li> <a href="#">НОВОСТИ</a></li>
+            <li> <a href="#">ПРАЙС-ЛИСТ</a></li>
+            <li> <a href="#">МАГАЗИН</a></li>
+            <li> <a href="#">КОНТАКТЫ</a></li>
+          </ul>
+        </nav>
+      </div>
       <div class="user">
         <a class="login" href="#">ВХОД</a>
       </div>
@@ -34,60 +34,61 @@
           <li class="current-page"><a>СРЕДСТВА ДЛЯ УХОДА</a></li>
         </ul>
       </div>
-      <div class="catalog-form">
-        <form action="#" method="get">
-          <fieldset>
-            <legend>ПРОИЗВОДИТЕЛИ</legend>
-            <ul>
-              <li>
-                <input type="checkbox" id="baxter" checked>
-                <label>BAXTER OF CALIFORNIA</label>
-              </li>
-              <li>
-                <input type="checkbox" id="MR_NATTY">
-                <label for="SUAVECITO">MR NATTY</label>
-              </li>
-              <li>
-                <input type="checkbox" id="SUAVECITO" checked>
-                <label for="SUAVECITO">SUAVECITO</label>
-              </li>
-              <li>
-                 <input type="checkbox" id="MALIN+GOETS">
-                <label for="MALIN+GOETS">MALIN+GOETS</label>
-              </li>
-              <li>
-                <input type="checkbox" id="MURRAY'S">
-                <label for="MURRAY'S">MURRAY'S</label>
-              </li>
-              <li>
-                <input type="checkbox" id="AMERICAN_CREW" checked>
-                <label for="AMERICAN_CREW">AMERICAN CREW</label>
-              </li>
-            </ul>
-          </fieldset>
-          <fieldset>
-            <legend>ГРУППЫ ТОВАРОВ</legend>
-            <ul>
-              <li>
-                <input type="radio" id="shave">
-                <label for="shave">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label>
-              </li>
-              <li>
-                <input type="radio" id="care" checked>
-                <label for="care">СРЕДСТВА ДЛЯ УХОДА</label>
-              </li>
-              <li>
-                <input type="radio" id="acessories">
-                <label for="acessories">АКСЕССУАРЫ</label>
-              </li>
-            </ul>
-          </fieldset>
-          <fieldset>
-            <input name="filter-checkout" type="submit" value="Применить">
-          </fieldset>
-        </form>
-      </div>
-        <div class="gallery">
+      <div class="main-text">
+        <div class="catalog-left">
+          <form action="#" method="get">
+            <fieldset>
+              <legend>ПРОИЗВОДИТЕЛИ</legend>
+              <ul>
+                <li>
+                  <input type="checkbox" id="baxter" checked>
+                  <label>BAXTER OF CALIFORNIA</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="MR_NATTY">
+                  <label for="SUAVECITO">MR NATTY</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="SUAVECITO" checked>
+                  <label for="SUAVECITO">SUAVECITO</label>
+                </li>
+                <li>
+                   <input type="checkbox" id="MALIN+GOETS">
+                  <label for="MALIN+GOETS">MALIN+GOETS</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="MURRAY'S">
+                  <label for="MURRAY'S">MURRAY'S</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="AMERICAN_CREW" checked>
+                  <label for="AMERICAN_CREW">AMERICAN CREW</label>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset>
+              <legend>ГРУППЫ ТОВАРОВ</legend>
+              <ul>
+                <li>
+                  <input type="radio" id="shave">
+                  <label for="shave">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label>
+                </li>
+                <li>
+                  <input type="radio" id="care" checked>
+                  <label for="care">СРЕДСТВА ДЛЯ УХОДА</label>
+                </li>
+                <li>
+                  <input type="radio" id="acessories">
+                  <label for="acessories">АКСЕССУАРЫ</label>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset>
+              <input name="filter-checkout" type="submit" value="Применить">
+            </fieldset>
+          </form>
+        </div>
+        <div class="catalog-right">
           <div class="gallery-item">
             <img src="#" width="200" height="100" alt="Набор для путешествий">
             <h2><a><span>Набор для путешествий</span></a></h2><br>
@@ -143,12 +144,13 @@
             </div>
           </div>
         </div>
-        <div class="paginator">
-          <a href="#1">1</a>
-          <a class="active" href="#2">2</a>
-          <a href="#3">3</a>
-          <a href="#4">4</a>
-        </div>
+      </div>
+      <div class="paginator">
+        <a href="#1">1</a>
+        <a class="active" href="#2">2</a>
+        <a href="#3">3</a>
+        <a href="#4">4</a>
+      </div>
     </main>
     <footer class="main-footer">
       <div class="container">
